@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="classminiflask_1_1_web_server" kind="class"><name>miniflask::WebServer</name>
+    <member refid="classminiflask_1_1_web_server_1ace92360981ba75ed546ee26e110558fa" kind="variable"><name>tcp_server</name></member>
+    <member refid="classminiflask_1_1_web_server_1a6c53069d7c7ea1a10b54145e9c95b19e" kind="function"><name>client_exec</name></member>
+    <member refid="classminiflask_1_1_web_server_1addf2e3da47def639a1f17afa15bd9a03" kind="function"><name>run_server</name></member>
+    <member refid="classminiflask_1_1_web_server_1a595918d3089c34b157c4a71afaabe190" kind="function"><name>__init__</name></member>
+  </compound>
+  <compound refid="namespacemini__web" kind="namespace"><name>mini_web</name>
+    <member refid="namespacemini__web_1a5ecf1988cea9826a33b42f1201b8a29b" kind="variable"><name>url_dict</name></member>
+    <member refid="namespacemini__web_1a05793b9dd7c857815eb158caac95dd1f" kind="function"><name>set_url</name></member>
+    <member refid="namespacemini__web_1a44814fbb18b64232691ea4c855ed7884" kind="function"><name>application</name></member>
+    <member refid="namespacemini__web_1adbb2acf3404b78b82804feb923947f3c" kind="function"><name>index</name></member>
+  </compound>
+  <compound refid="namespaceminiflask" kind="namespace"><name>miniflask</name>
+    <member refid="namespaceminiflask_1a310dd18fdffa4c1b253036f61f83f8fc" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="namespacepy__miniweb" kind="namespace"><name>py_miniweb</name>
+  </compound>
+  <compound refid="mini__web_8py" kind="file"><name>mini_web.py</name>
+  </compound>
+  <compound refid="miniflask_8py" kind="file"><name>miniflask.py</name>
+  </compound>
+  <compound refid="py__mini_8cpp" kind="file"><name>py_mini.cpp</name>
+  </compound>
+  <compound refid="py__miniweb_8py" kind="file"><name>py_miniweb.py</name>
+  </compound>
+  <compound refid="dir_885cc87fac2d91e269af0a5a959fa5f6" kind="dir"><name>E:</name>
+  </compound>
+  <compound refid="dir_b624fa75fbde736f5e260070231214f6" kind="dir"><name>E:/github</name>
+  </compound>
+  <compound refid="dir_d94f82a0a89c2943e1040b48a795bc65" kind="dir"><name>E:/github/ithorse</name>
+  </compound>
+  <compound refid="dir_8e39890c068b98629a979b0a65d44664" kind="dir"><name>E:/github/ithorse/IThorsePythonAdvanced</name>
+  </compound>
+  <compound refid="dir_204c3dd254bd2fbc99cd22d767dcb4fe" kind="dir"><name>E:/github/ithorse/IThorsePythonAdvanced/py_miniweb/py_miniweb/py_miniweb</name>
+  </compound>
+  <compound refid="dir_bd1a661f2c559ac7157826f67d19685c" kind="dir"><name>E:/github/ithorse/IThorsePythonAdvanced/py_miniweb/py_miniweb</name>
+  </compound>
+  <compound refid="dir_675523bc69049ab165342e92e7b5c62e" kind="dir"><name>E:/github/ithorse/IThorsePythonAdvanced/py_miniweb</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+</head>
+
+<body>
+    <form action="http://127.0.0.1:8080/regedit.html" method="POST">
+        <p>
+            <label for="user">用户</label>
+            <input type="text" id="user" name="usermane">
+        </p>
+        <p>
+            <label for="pwd">密码</label>
+            <input type="password" id="pwd" name="password">
+        </p>
+        <p>
+            <label>性别</label>
+            <input type="radio" name="gender" value="man">男
+            <input type="radio" name="gender" value="woman">女
+        </p>
+        <p>
+            <label>爱好</label>
+            <input type="checkbox" name="like" value="song">唱歌
+            <input type="checkbox" name="like" value="dance">跳舞
+            <input type="checkbox" name="like" value="run">跑步
+        </p>
+        <p>
+            <label>照片</label>
+            <input type="file" name="image">
+        </p>
+        <p>
+            <label>个人描述：</label>
+            <!-- <textarea rows="10" cols="30" placeholder="提示信息。。。"> -->
+            <textarea name="back_info">    
+            </textarea>
+        </p>
+        <P>
+            <label>籍贯</label>
+            <select name="city">
+                <option value="hz">杭州</option>
+                <option value="sh">上海</option>
+                <option value="bj">北京</option>
+            </select>
+        </P>
+        <input type="submit" value="注册">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="reset">
+    <p>
+        <input type="button" value="按钮" onclick="alert('hello word')">
+    </p>
+    </form>
+
+</body>
+
+</html>

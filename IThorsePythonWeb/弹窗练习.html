@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .pop{
+            width: 500px;
+            height: 300px;
+            border:1px solid black;
+            background-color:white;
+            position: fixed;
+            left: 50%;
+            top:50%;
+            margin-left: -251px;
+            margin-top: -151px;
+            z-index: 9999;
+        }
+        .pop h3{
+            margin: 5px;
+            background: lightskyblue;
+            line-height: 40px;
+        }
+        .mask{
+            position: fixed;
+            left: 0px;
+            top:0px;
+            width: 100%;
+            height: 100%;
+            background: black;
+            z-index: 9998;
+            opacity: 0.3;
+            filter: alpha(opacity=30);
+        }
+        .pop_con{
+            display: none;
+        }
+        .class{
+             width: 1000px;
+            height: 1000px;
+            position: fixed;
+            left: 2000px;
+            top:2000px;
+            z-index: 100000000;
+
+        }
+    
+    
+    
+    </style>
+</head>
+<body>
+    <h1>网页</h1>
+    <div class="pop_con" style="display: inline;">
+        <div class="pop">
+            <h3>弹框标题</h3>
+            <p>弹框文字</p>
+            
+            
+
+
+        </div>
+        <div class="class">
+        <a href="./弹窗练习.html">弹窗练习a</a>
+        <iframe src="./弹窗练习.html" frameborder="0">弹窗练习b</iframe>
+
+        </div>  
+        <div class="mask">东西</div>
+    
+    
+    </div>
+    
+</body>
+</html>

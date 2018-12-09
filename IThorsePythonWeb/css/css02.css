@@ -1,0 +1,44 @@
+.box {
+    width:285px;
+    height: 310px;
+    border-bottom: 1px solid #c8dcf2;
+    border-top: 1px solid #c8dcf2;
+}
+.header {
+    width:285px;
+    height: 40px;
+}
+.header h3 {
+    margin:0px;
+    font-family: 'Microsoft Yahei';
+    font-size: 16px;
+    color: #172c45;
+    line-height: 40px;
+    float: left;
+}
+.header a {
+    font-size: 12px;
+    font-family: 'Microsoft Yahei';
+    color: #172c45;
+    text-decoration: none;
+    float: right;
+    line-height: 40px;
+}
+p {
+    font-size: 12px;
+    font-family: 'Microsoft Yahei';
+    color: #737373;
+    line-height: 20px;
+    height:190px;
+    width: 100%;
+}
+img {
+    height:80px;
+    width:100%;
+}
+#table{
+
+    color: aqua;
+
+
+}

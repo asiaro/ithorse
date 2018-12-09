@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_b624fa75fbde736f5e260070231214f6" kind="dir">
+    <compoundname>E:/github</compoundname>
+    <innerdir refid="dir_d94f82a0a89c2943e1040b48a795bc65">E:/github/ithorse</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/github/"/>
+  </compounddef>
+</doxygen>

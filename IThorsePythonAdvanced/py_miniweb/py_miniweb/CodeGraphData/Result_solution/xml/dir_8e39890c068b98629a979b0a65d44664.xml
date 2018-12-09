@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_8e39890c068b98629a979b0a65d44664" kind="dir">
+    <compoundname>E:/github/ithorse/IThorsePythonAdvanced</compoundname>
+    <innerdir refid="dir_675523bc69049ab165342e92e7b5c62e">E:/github/ithorse/IThorsePythonAdvanced/py_miniweb</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/github/ithorse/IThorsePythonAdvanced/"/>
+  </compounddef>
+</doxygen>

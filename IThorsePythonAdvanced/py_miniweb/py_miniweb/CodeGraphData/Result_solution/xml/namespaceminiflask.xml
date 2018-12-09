@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespaceminiflask" kind="namespace">
+    <compoundname>miniflask</compoundname>
+    <innerclass refid="classminiflask_1_1_web_server" prot="public">miniflask::WebServer</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceminiflask_1a310dd18fdffa4c1b253036f61f83f8fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def miniflask.main</definition>
+        <argsstring></argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/github/ithorse/IThorsePythonAdvanced/py_miniweb/py_miniweb/py_miniweb/miniflask.py" line="151" column="1" bodyfile="E:/github/ithorse/IThorsePythonAdvanced/py_miniweb/py_miniweb/py_miniweb/miniflask.py" bodystart="151" bodyend="158"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/github/ithorse/IThorsePythonAdvanced/py_miniweb/py_miniweb/py_miniweb/miniflask.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

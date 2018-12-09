@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespacemini__web" kind="namespace">
+    <compoundname>mini_web</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacemini__web_1a5ecf1988cea9826a33b42f1201b8a29b" prot="public" static="no" mutable="no">
+        <type>tuple</type>
+        <definition>tuple mini_web.url_dict</definition>
+        <argsstring></argsstring>
+        <name>url_dict</name>
+        <initializer>= dict()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/github/ithorse/IThorsePythonAdvanced/py_miniweb/py_miniweb/py_miniweb/mini_web.py" line="7" column="1" bodyfile="E:/github/ithorse/IThorsePythonAdvanced/py_miniweb/py_miniweb/py_miniweb/mini_web.py" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacemini__web_1a05793b9dd7c857815eb158caac95dd1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def mini_web.set_url</definition>
+        <argsstring></argsstring>
+        <name>set_url</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/github/ithorse/IThorsePythonAdvanced/py_miniweb/py_miniweb/py_miniweb/mini_web.py" line="10" column="1" bodyfile="E:/github/ithorse/IThorsePythonAdvanced/py_miniweb/py_miniweb/py_miniweb/mini_web.py" bodystart="10" bodyend="28"/>
+        <referencedby refid="namespacemini__web_1a44814fbb18b64232691ea4c855ed7884" compoundref="mini__web_8py" startline="29" endline="53">application</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacemini__web_1a44814fbb18b64232691ea4c855ed7884" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def mini_web.application</definition>
+        <argsstring></argsstring>
+        <name>application</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/github/ithorse/IThorsePythonAdvanced/py_miniweb/py_miniweb/py_miniweb/mini_web.py" line="29" column="1" bodyfile="E:/github/ithorse/IThorsePythonAdvanced/py_miniweb/py_miniweb/py_miniweb/mini_web.py" bodystart="29" bodyend="53"/>
+        <references refid="namespacemini__web_1a05793b9dd7c857815eb158caac95dd1f" compoundref="mini__web_8py" startline="10" endline="28">set_url</references>
+        <referencedby refid="classminiflask_1_1_web_server_1a6c53069d7c7ea1a10b54145e9c95b19e" compoundref="miniflask_8py" startline="27" endline="121">miniflask.WebServer.client_exec</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacemini__web_1adbb2acf3404b78b82804feb923947f3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def mini_web.index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <briefdescription>
+<para>上面是框架####################################### </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/github/ithorse/IThorsePythonAdvanced/py_miniweb/py_miniweb/py_miniweb/mini_web.py" line="59" column="1" bodyfile="E:/github/ithorse/IThorsePythonAdvanced/py_miniweb/py_miniweb/py_miniweb/mini_web.py" bodystart="59" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/github/ithorse/IThorsePythonAdvanced/py_miniweb/py_miniweb/py_miniweb/mini_web.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

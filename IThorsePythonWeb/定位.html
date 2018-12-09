@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .main{
+            background-color: #353535;
+            width: 1000px;
+            height: 1000px;
+            position: relative;
+            left: 20px;
+            right: 20px;
+
+
+        }
+        .relative{
+            background-color: #00fa00;
+            width: auto;
+            height: auto;
+            color: rgb(255, 0, 0);
+            position: relative;
+            left: 20px;
+            right: 20px;
+        }
+        .absolute{
+            background-color: #fa06bd;
+            width: 100px;
+            height: 100px;
+            color: rgb(34, 14, 14);
+            position:absolute;
+            left: 20px;
+            top: 10px;
+            z-index: 1;
+        }
+        .fixed{
+            background-color: #1c03f7;
+            width: 100px;
+            height: 100px;
+            /* color: rgba(20, 136, 165, 0.534); */
+            position:fixed;
+            left: 20px;
+            top: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="main">
+        <div class="relative">相对定位</div>
+        <div class="absolute">绝对定位</div>
+        <div class="fixed">固定定位</div>
+    </div>
+</body>
+</html>

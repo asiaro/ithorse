@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_204c3dd254bd2fbc99cd22d767dcb4fe" kind="dir">
+    <compoundname>E:/github/ithorse/IThorsePythonAdvanced/py_miniweb/py_miniweb/py_miniweb</compoundname>
+    <innerfile refid="mini__web_8py">mini_web.py</innerfile>
+    <innerfile refid="miniflask_8py">miniflask.py</innerfile>
+    <innerfile refid="py__mini_8cpp">py_mini.cpp</innerfile>
+    <innerfile refid="py__miniweb_8py">py_miniweb.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/github/ithorse/IThorsePythonAdvanced/py_miniweb/py_miniweb/py_miniweb/"/>
+  </compounddef>
+</doxygen>

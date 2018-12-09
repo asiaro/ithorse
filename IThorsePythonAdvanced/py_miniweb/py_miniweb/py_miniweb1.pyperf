@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ProfilingTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectTarget>
+    <TargetProject>345d1d90-4253-421a-8517-b1eb2070879c</TargetProject>
+    <FriendlyName>py_miniweb</FriendlyName>
+  </ProjectTarget>
+</ProfilingTarget>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classminiflask_1_1_web_server" kind="class" prot="public">
+    <compoundname>miniflask::WebServer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classminiflask_1_1_web_server_1ace92360981ba75ed546ee26e110558fa" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>miniflask.WebServer::tcp_server</definition>
+        <argsstring></argsstring>
+        <name>tcp_server</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/github/ithorse/IThorsePythonAdvanced/py_miniweb/py_miniweb/py_miniweb/miniflask.py" line="139" column="1" bodyfile="E:/github/ithorse/IThorsePythonAdvanced/py_miniweb/py_miniweb/py_miniweb/miniflask.py" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classminiflask_1_1_web_server_1a6c53069d7c7ea1a10b54145e9c95b19e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def miniflask.WebServer.client_exec</definition>
+        <argsstring></argsstring>
+        <name>client_exec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/github/ithorse/IThorsePythonAdvanced/py_miniweb/py_miniweb/py_miniweb/miniflask.py" line="27" column="1" bodyfile="E:/github/ithorse/IThorsePythonAdvanced/py_miniweb/py_miniweb/py_miniweb/miniflask.py" bodystart="27" bodyend="121"/>
+        <references refid="namespacemini__web_1a44814fbb18b64232691ea4c855ed7884" compoundref="mini__web_8py" startline="29" endline="53">mini_web.application</references>
+        <referencedby refid="classminiflask_1_1_web_server_1addf2e3da47def639a1f17afa15bd9a03" compoundref="miniflask_8py" startline="123" endline="135">miniflask.WebServer.run_server</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classminiflask_1_1_web_server_1addf2e3da47def639a1f17afa15bd9a03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def miniflask.WebServer.run_server</definition>
+        <argsstring></argsstring>
+        <name>run_server</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/github/ithorse/IThorsePythonAdvanced/py_miniweb/py_miniweb/py_miniweb/miniflask.py" line="123" column="1" bodyfile="E:/github/ithorse/IThorsePythonAdvanced/py_miniweb/py_miniweb/py_miniweb/miniflask.py" bodystart="123" bodyend="135"/>
+        <references refid="classminiflask_1_1_web_server_1a6c53069d7c7ea1a10b54145e9c95b19e" compoundref="miniflask_8py" startline="27" endline="121">miniflask.WebServer.client_exec</references>
+      </memberdef>
+      <memberdef kind="function" id="classminiflask_1_1_web_server_1a595918d3089c34b157c4a71afaabe190" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def miniflask.WebServer.__init__</definition>
+        <argsstring></argsstring>
+        <name>__init__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/github/ithorse/IThorsePythonAdvanced/py_miniweb/py_miniweb/py_miniweb/miniflask.py" line="136" column="1" bodyfile="E:/github/ithorse/IThorsePythonAdvanced/py_miniweb/py_miniweb/py_miniweb/miniflask.py" bodystart="136" bodyend="150"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>miniflask.WebServer</label>
+        <link refid="classminiflask_1_1_web_server"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>object</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>miniflask.WebServer</label>
+        <link refid="classminiflask_1_1_web_server"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>object</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/github/ithorse/IThorsePythonAdvanced/py_miniweb/py_miniweb/py_miniweb/miniflask.py" line="26" column="1" bodyfile="E:/github/ithorse/IThorsePythonAdvanced/py_miniweb/py_miniweb/py_miniweb/miniflask.py" bodystart="26" bodyend="151"/>
+    <listofallmembers>
+      <member refid="classminiflask_1_1_web_server_1a595918d3089c34b157c4a71afaabe190" prot="public" virt="non-virtual"><scope>miniflask::WebServer</scope><name>__init__</name></member>
+      <member refid="classminiflask_1_1_web_server_1a6c53069d7c7ea1a10b54145e9c95b19e" prot="public" virt="non-virtual"><scope>miniflask::WebServer</scope><name>client_exec</name></member>
+      <member refid="classminiflask_1_1_web_server_1addf2e3da47def639a1f17afa15bd9a03" prot="public" virt="non-virtual"><scope>miniflask::WebServer</scope><name>run_server</name></member>
+      <member refid="classminiflask_1_1_web_server_1ace92360981ba75ed546ee26e110558fa" prot="public" virt="non-virtual"><scope>miniflask::WebServer</scope><name>tcp_server</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
