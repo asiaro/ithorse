@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        window.onload = function () {
+            var vid1 = document.getElementById('app')
+            var vid2 = document.getElementById('app2')
+            var vid3 = document.getElementById("input1")
+            var link1 = document.getElementById("link1")
+            alert(vid1.id)
+            alert(vid2.innerHTML)
+            vid2.innerHTML='<a href="www.baidu.com">baidu</a>'
+            alert(vid2.innerHTML)
+            console.log(link1.href)
+            // 鼠标单击事件 onclick
+            // 鼠标双击事件 ondblclick (double)
+            // 鼠标移入事件 onmouseover
+            // 鼠标移除事件 onmouseout
+            vid1.onclick=myalert;
+            vid3.ondblclick=$;
+            vid3.onmouseover=vi3;
+            vid3.onmouseout=lin1;
+            
+            function myalert(){
+                alert('ok');
+            }
+            function $(){
+                alert('ok1');
+            }
+            function vi3(){
+                input1.value="50"
+            }
+            function lin1(){
+                link1.href='www.baidu.com'
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+    <div id="app">输出元素</div>
+    <div id="app2">输出</div>
+    <input type="text" name="setsize" id="input1" value="20px">
+    <a href="http://www.itcast.cn" id="link1">传播</a>
+</body>
+
+</html>

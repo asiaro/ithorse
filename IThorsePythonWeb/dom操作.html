@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script>
+        $(function(){
+            // 在元素内部添加，从后面放入
+            $('div').append($('<em>斜体1</em>'))
+            // 在元素内部添加，从后面放入
+            $('<em>斜体2</em>').appendTo($('div'))
+            // 在元素内部添加，从前面放入
+            $('div').prepend($('<em>斜体3</em>'))
+            // 在元素内部添加，从前面放入
+            $('<em>斜体4</em>').prependTo($('div'))
+            // 在元素外部添加，从后面放入
+            $('div').after($('<em>斜体5</em>'))
+            // 在元素外部添加，从后面放入
+            // 注释：如果该方法用于已有元素，这些元素会被从当前位置移走，然后被添加到被选元素之后。
+            $('<em>斜体6</em>').insertAfter($('div'))
+            // 在被选元素前插入指定的内容。
+            $('div').before($('<em>斜体7</em>'))
+            // insertBefore() 方法在您指定的已有子节点之前插入新的子节点。
+            $('<em>斜体8</em>').insertBefore($('div'))
+            删除标签
+            $('div').remove()
+        })
+    </script>
+</head>
+<body>
+    <div>哈哈</div>
+</body>
+</html>
